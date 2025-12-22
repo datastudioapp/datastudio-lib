@@ -19,6 +19,8 @@
         buildInputs = [
           pkgs.pre-commit
           pkgs.python311
+          pkgs.python311Packages.build
+          pkgs.python311Packages.twine
           pkgs.python311Packages.packaging
           pkgs.python311Packages.pandas
         ];

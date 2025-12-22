@@ -1,7 +1,7 @@
 [project]
-name = "datakitpy"
-version = "0.2.1"
-description = "Datakit helper library"
+name = "datastudio-lib"
+version = "0.2.2"
+description = "DataStudio Python library"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
@@ -12,16 +12,12 @@ dependencies = [
     "docker >= 7.1.0, < 8",
 ]
 
-[project.urls]
-"Homepage" = "https://github.com/opendatastudio/datakitpy"
-"Bug Tracker" = "https://github.com/opendatastudio/datakitpy/issues"
-
 [project.optional-dependencies]
 development = [
     "pre-commit",
     "build",
 ]
-all = ["datakitpy[development]"]
+all = ["datastudio-lib[development]"]
 
 [build-system]
 requires = ["setuptools>=61.0"]

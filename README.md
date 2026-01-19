@@ -1,6 +1,6 @@
 # DataStudio Python library
 
-This library contains low-level functions used by [opendatacli](https://github.com/opendatastudio/cli) to interact with datakits.
+This library contains low-level functions used by [datastudio-cli](https://github.com/datastudioapp/datastudio-cli) to interact with datakits.
 
 ## Development
 
